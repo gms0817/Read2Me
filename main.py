@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import tkinter as tk
 import pyttsx3
 
@@ -41,6 +37,7 @@ def main():
     # Text Label
     label = tk.Label(root, text="Paste the text you would to have read to you.")
     label.pack(padx=10, pady=10)
+
     # Input Field
     input_field = tk.Entry(root)
     input_field.pack(padx=10, pady=10)
